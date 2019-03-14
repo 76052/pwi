@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+
+<title>lab 3</title>
+<body>
+<header> header </header>
+
+<nav>
+<ol>
+
+<li> zrobic ciasto </li>
+<li> upiec </li>
+<li> zjesc </li>
+<ol>
+
+</nav>
+<article> <section> </article> </section>
+<aside> aside </aside>
+<footer> footer </footer>
+</body>
+</html>
