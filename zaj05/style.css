@@ -1,0 +1,67 @@
+header{
+    background-color: aqua;
+    font-size: 30px;
+    
+
+}
+footer{
+    background-color: blue;
+    font-size: 30px;
+}
+#menu{
+    background-color: red;
+}
+.artykul{
+    background-color: blueviolet;
+    flex: 3;
+    font-size: 30px;
+}
+.side{
+    background-color: black;
+    flex: 1;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+P, body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+
+
+}
+nav ul{
+        margin: 0;
+        padding: 0
+        list-style-type:none;
+
+
+    }
+
+nav li{
+    display: inline-block;
+    width: 30%
+
+}
+p{
+    text-indent: 800px;
+}
+a {
+    color: green;
+    display: line-block
+
+    text decoration: none;
+
+    
+}
+
+a:hover{
+    background: pink;
+
+}
+
+main{
+    display: flex;
+}
+
