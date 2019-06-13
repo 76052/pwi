@@ -1,0 +1,239 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #6d6f71;
+	text-align: center;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 50px;
+}
+
+a {
+	color: #40c1d4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+	margin-left: 10px;
+	margin-top: -30px;
+	padding: 0;
+}
+
+#logo h1 {
+	font-size: 36px;
+	font-weight: bold;;
+	color: #40c1d4;
+}
+
+#logo p {
+	font-size: 13px;
+	color: #91989e;
+	text-transform: capitalize;
+	margin-top: -25px;
+	padding-left: 10px;
+	float: left;
+}
+
+#top {
+	width: 1000px;
+	height: 110px;
+	float: left;
+	background: url(../images/bg_top2.png) no-repeat;
+}
+
+#menu {
+	width: 1000px;
+	float: left;
+	margin-top: -7px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	color: #3c6b72;
+	font-size: 16px;
+	display: block;
+	float: left;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #217b88;
+	text-decoration: underline;
+}
+
+#search_top {
+	float: right;
+	margin-right: 30px;
+	margin-top: -100px;
+}
+
+#search_top p {
+	font-size: 16px;
+	color: #3c6b72;
+}
+
+#search_top input {
+	border: 0px;
+	background: #51d5e8;
+	height: 30px;
+	padding: 5px;
+}
+
+#header {
+	float: left;
+	width: 960px;
+	height: 250px;
+	margin-top: 30px;
+	background: url(../images/header.jpg) no-repeat;
+}
+
+#title_head {
+	float: left;
+	padding-top: 30px;
+	padding-left: 550px;
+	color: #333333;
+	font-size: 24px;
+}
+
+#container {
+	float: left;
+	margin-bottom: 30px;
+	width: 1000px;
+}
+
+#content {
+	float: left;
+	width: 640px;
+	text-align: justify;
+	line-height: 30px;
+	margin-left: 50px;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #40c1d4;
+}
+
+#title_sidebar {
+	float: left;
+	width: 300px;
+	height: 35px;
+	padding: 10px 5px 0px 15px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(../images/bg_sidebar.png) no-repeat;
+}
+
+#sidebar {
+	float: left;
+	width: 300px;
+	line-height: 26px;
+	text-align: justify;
+	margin-top: 10px;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+}
+
+#sidebar li {
+	display: block;
+	float: left;
+	width: 290px;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+#sidebar a {
+	color: #40c1d4;
+	font-size: 14px;
+	display: block;
+	float: left;
+	padding: 4px 0px 4px 10px;
+	text-decoration: none;
+
+}
+
+#sidebar a:hover {
+	color: #d8b077;
+}
+
+#sidebar p {
+	padding: 5px;
+}
+
+
+
+
+
+#panel {
+	width: 400px; 
+	margin: 0 auto; 
+	padding: 15px 0 0;
+	background: #fff;
+	border: 1px solid silver;
+	font: 16px calibri;
+	letter-spacing: -1px;
+	-webkit-box-shadow: 0 0 2px silver; 
+	-moz-box-shadow: 0 0 2px silver; 
+	box-shadow: 0 0 2px silver;
+}
+
+td, th { 
+	border: 1px solid black; 
+}
+
+
+form {
+	margin:0 auto;
+	width:300px
+  }
+  input {
+	margin-bottom:3px;
+	padding:10px;
+	width: 100%;
+	border:1px solid #CCC
+  }
+  button {
+	padding:10px
+  }
+  label {
+	cursor:pointer
+  }
+  #form-switch {
+	display:none
+  }
+  #register-form {
+	display:none
+  }
+  #form-switch:checked~#register-form {
+	display:block
+  }
+  #form-switch:checked~#login-form {
+	display:none
+  }
+
+  
